@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ### Usage
 Adds the "is_bot" column to an input CSV file.
 
-python parser.py contacts.csv > contacts_with_is_bot_column.csv
+``` python parser.py contacts.csv > contacts_with_is_bot_column.csv ```
 
 ## Contact information:
 
