@@ -2,6 +2,7 @@
 With this Python program/code, you will be able to determine whether the User Agent/logs, after sending bulk campaigns, belong to bots or real users. In other words, it allows you to identify if the emails have been opened by a bot or a real user.
 
 ## Usage and Description
+### Requirements installation
 - Python installation:
 https://www.python.org/downloads/
 
@@ -10,7 +11,7 @@ https://www.python.org/downloads/
 - Requirements installation
 pip install -r requirements.txt
 
-## Usage
+### Usage
 Adds the "is_bot" column to an input CSV file.
 python parser.py contacts.csv > contacts_with_is_bot_column.csv
 
